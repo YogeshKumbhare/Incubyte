@@ -13,6 +13,7 @@ public class IncubyteExample {
         year = sc.nextInt();
         IncubyteExample e = new IncubyteExample();
         e.checkLeapYear(year);
+        System.out.println("Done");
     }
 
     public void checkLeapYear(int year) {
